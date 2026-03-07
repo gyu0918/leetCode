@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/gyu0918/leetCode/tree/master/0095-unique-binary-search-trees-ii) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/gyu0918/leetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/gyu0918/leetCode/tree/master/0095-unique-binary-search-trees-ii) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/gyu0918/leetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Hash Table
 |  |
 | ------- |
@@ -41,4 +43,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/gyu0918/leetCode/tree/master/0012-integer-to-roman) |
+## Depth-First Search
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/gyu0918/leetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/gyu0918/leetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
