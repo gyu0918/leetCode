@@ -33,11 +33,8 @@ class Solution {
         }
 
         //reverse substiton
-        List<List<Integer>> finalResult = new ArrayList<>();
-        for (int i = res.size() - 1; i >= 0; i--){
-            finalResult.add(res.get(i));
-        }
+        Collections.reverse(res);
 
-        return finalResult;
+        return res;
     }
 }
