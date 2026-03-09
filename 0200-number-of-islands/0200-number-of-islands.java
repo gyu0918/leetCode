@@ -19,23 +19,19 @@
 
 class Solution {
     public int numIslands(char[][] grid) {
-        //엣지케이스
-        if (grid == null || grid.length == 0) return 0;
-
         int m = grid.length;
         int n = grid[0].length;
+        boolean[][] visited = new boolean[m][n];
         int count = 0;
 
-        // 상, 하, 좌, 우
         int[] dx = {-1, 1, 0, 0};
         int[] dy = {0, 0, -1, 1};
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                // 새로운 섬 발견
-                if (grid[i][j] == '1') {
+                if (grid[i][j] == '1' && !visited[i][j]) {
+                    bfs(grid, visited, i, j, dx, dy);
                     count++;
-                    bfs(grid, i, j, dx, dy);
                 }
             }
         }
@@ -43,15 +39,13 @@ class Solution {
         return count;
     }
 
-    private void bfs(char[][] grid, int x, int y, int[] dx, int[] dy) {
+    private void bfs(char[][] grid, boolean[][] visited, int x, int y, int[] dx, int[] dy) {
         int m = grid.length;
         int n = grid[0].length;
 
         Queue<int[]> queue = new LinkedList<>();
         queue.offer(new int[]{x, y});
-
-        // 방문 처리
-        grid[x][y] = '0';
+        visited[x][y] = true;
 
         while (!queue.isEmpty()) {
             int[] cur = queue.poll();
@@ -62,10 +56,11 @@ class Solution {
                 int nx = cx + dx[i];
                 int ny = cy + dy[i];
 
-                // 범위 안이고, 육지이면
-                if (nx >= 0 && nx < m && ny >= 0 && ny < n && grid[nx][ny] == '1') {
-                    queue.offer(new int[]{nx, ny});
-                    grid[nx][ny] = '0'; // 방문 처리
+                if (nx >= 0 && nx < m && ny >= 0 && ny < n) {
+                    if (grid[nx][ny] == '1' && !visited[nx][ny]) {
+                        visited[nx][ny] = true;
+                        queue.offer(new int[]{nx, ny});
+                    }
                 }
             }
         }
