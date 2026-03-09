@@ -18,19 +18,19 @@
 // }
 
 class Solution {
+    static boolean[][] visited;
+    static int[] dx = {-1,1,0,0};
+    static int[] dy = {0,0,-1,1};
     public int numIslands(char[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
-        boolean[][] visited = new boolean[m][n];
+        visited = new boolean[m][n];
         int count = 0;
-
-        int[] dx = {-1, 1, 0, 0};
-        int[] dy = {0, 0, -1, 1};
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == '1' && !visited[i][j]) {
-                    bfs(grid, visited, i, j, dx, dy);
+                    bfs(grid, visited, i, j);
                     count++;
                 }
             }
@@ -39,7 +39,7 @@ class Solution {
         return count;
     }
 
-    private void bfs(char[][] grid, boolean[][] visited, int x, int y, int[] dx, int[] dy) {
+    private void bfs(char[][] grid, boolean[][] visited, int x, int y) {
         int m = grid.length;
         int n = grid[0].length;
 
