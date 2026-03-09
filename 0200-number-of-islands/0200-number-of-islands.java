@@ -19,6 +19,7 @@
 
 class Solution {
     public int numIslands(char[][] grid) {
+        //엣지케이스
         if (grid == null || grid.length == 0) return 0;
 
         int m = grid.length;
