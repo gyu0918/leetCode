@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/gyu0918/leetCode/tree/master/0035-search-insert-position) |
 | [0095-unique-binary-search-trees-ii](https://github.com/gyu0918/leetCode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/gyu0918/leetCode/tree/master/0096-unique-binary-search-trees) |
 ## Binary Tree
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/gyu0918/leetCode/tree/master/0035-search-insert-position) |
 | [0200-number-of-islands](https://github.com/gyu0918/leetCode/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/gyu0918/leetCode/tree/master/0733-flood-fill) |
 ## Union-Find
