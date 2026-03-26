@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/gyu0918/leetCode/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/gyu0918/leetCode/tree/master/0069-sqrtx) |
 | [0095-unique-binary-search-trees-ii](https://github.com/gyu0918/leetCode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/gyu0918/leetCode/tree/master/0096-unique-binary-search-trees) |
 ## Binary Tree
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/gyu0918/leetCode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/gyu0918/leetCode/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/gyu0918/leetCode/tree/master/0012-integer-to-roman) |
+| [0069-sqrtx](https://github.com/gyu0918/leetCode/tree/master/0069-sqrtx) |
 | [0096-unique-binary-search-trees](https://github.com/gyu0918/leetCode/tree/master/0096-unique-binary-search-trees) |
 ## Depth-First Search
 |  |
