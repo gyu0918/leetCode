@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/gyu0918/leetCode/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/gyu0918/leetCode/tree/master/0006-zigzag-conversion) |
 | [0012-integer-to-roman](https://github.com/gyu0918/leetCode/tree/master/0012-integer-to-roman) |
+| [1768-merge-strings-alternately](https://github.com/gyu0918/leetCode/tree/master/1768-merge-strings-alternately) |
 ## Sliding Window
 |  |
 | ------- |
@@ -101,4 +102,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/gyu0918/leetCode/tree/master/0005-longest-palindromic-substring) |
+| [1768-merge-strings-alternately](https://github.com/gyu0918/leetCode/tree/master/1768-merge-strings-alternately) |
 <!---LeetCode Topics End-->
