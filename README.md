@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/gyu0918/leetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/gyu0918/leetCode/tree/master/0012-integer-to-roman) |
+| [0049-group-anagrams](https://github.com/gyu0918/leetCode/tree/master/0049-group-anagrams) |
 ## String
 |  |
 | ------- |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0006-zigzag-conversion](https://github.com/gyu0918/leetCode/tree/master/0006-zigzag-conversion) |
 | [0012-integer-to-roman](https://github.com/gyu0918/leetCode/tree/master/0012-integer-to-roman) |
 | [0020-valid-parentheses](https://github.com/gyu0918/leetCode/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/gyu0918/leetCode/tree/master/0049-group-anagrams) |
 | [1768-merge-strings-alternately](https://github.com/gyu0918/leetCode/tree/master/1768-merge-strings-alternately) |
 ## Sliding Window
 |  |
@@ -90,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/gyu0918/leetCode/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/gyu0918/leetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0035-search-insert-position](https://github.com/gyu0918/leetCode/tree/master/0035-search-insert-position) |
+| [0049-group-anagrams](https://github.com/gyu0918/leetCode/tree/master/0049-group-anagrams) |
 | [0200-number-of-islands](https://github.com/gyu0918/leetCode/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/gyu0918/leetCode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/gyu0918/leetCode/tree/master/0733-flood-fill) |
@@ -130,4 +133,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/gyu0918/leetCode/tree/master/0011-container-with-most-water) |
+## Sorting
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/gyu0918/leetCode/tree/master/0049-group-anagrams) |
 <!---LeetCode Topics End-->
