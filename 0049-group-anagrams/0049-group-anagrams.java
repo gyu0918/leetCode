@@ -10,18 +10,22 @@ class Solution {
         
         List<List<String>> result = groupAnagrams(strs);
         
+        
         // 출력
         for (List<String> group : result) {
             System.out.println(group);
         }
     }
 
+    //시간 복잡도 O(n.klogk)
+    //공간 복잡도 O(n⋅k)
     public static List<List<String>> groupAnagrams(String[] strs) {
+         
         Map<String, List<String>> map = new HashMap<>();
         
         for (String str : strs) {
-            char[] chars = str.toCharArray();
-            Arrays.sort(chars); // 핵심: 정렬
+            char[] chars = str.toCharArray();  //O(k)
+            Arrays.sort(chars); // 핵심: 정렬   //O(klogk)
             
             String key = new String(chars);
             
